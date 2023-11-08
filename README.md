@@ -7,8 +7,8 @@ Small utility to convert values between bases 2, 8, 10, and 16. A task that is t
 No prerequisites, so it's as easy as:
 
 ```sh
-$ cargo build -r # build release target
-$ cargo install # to install
+$ cargo build -r         # build release target
+$ cargo install --path=. # to install
 ```
 
 ## Usage
