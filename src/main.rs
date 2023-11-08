@@ -34,7 +34,7 @@ impl fmt::Display for Cli {
 }
 
 impl Mode {
-    fn to_radix(&self) -> u32 {
+    fn to_radix(self) -> u32 {
         match self {
             Mode::Binary => 2,
             Mode::Octal => 8,
