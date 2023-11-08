@@ -2,6 +2,15 @@
 
 Small utility to convert values between bases 2, 8, 10, and 16. A task that is trivial to perform in any programming language, but still useful to have a utility for when debugging.
 
+## Building/installing
+
+No prerequisites, so it's as easy as:
+
+```sh
+$ cargo build -r # build release target
+$ cargo install # to install
+```
+
 ## Usage
 
 ```
